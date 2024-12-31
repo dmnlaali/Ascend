@@ -1,0 +1,14 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --main-color: #24252e;
+  --secondary-color: #373845;
+  --text-color-1: white;
+  --text-color-2: rgb(181, 181, 181);
+  --glow-color-1: rgba(115, 115, 115, 0.5);
+  --btn-color-1: #494b5c;
+  --btn-color-2: #5c5e74;
+  background: linear-gradient(to right, var(--main-color), var(--secondary-color));
+}

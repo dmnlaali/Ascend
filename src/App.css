@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 10rem;
+}
+
+.main-content h1 {
+  width: 20%;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.main-content p {
+  width: 30%;
+  margin: 0;
+}
+
+.main-content .start-btn {
+  width: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-color: var(--btn-color-1);
+  color: var(--text-color-1);
+  font-size: 0.9rem;
+  font-weight: 550;
+  transition: 0.05s linear 0.05s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-content .start-btn:hover {
+  background-color: var(--btn-color-2);
+  box-shadow: 0px 0px 3rem var(--glow-color-1);
+}

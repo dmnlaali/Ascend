@@ -1,0 +1,54 @@
+body{
+    color: var(--text-color-1);
+}
+
+.logo {
+    position: relative;
+    float: left;
+    left: 0rem;
+    top: 0rem;
+    margin: 0;
+    padding:0;
+    margin-left: -5rem;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-links {
+    position: relative;
+    left: 5rem;
+}
+
+.nav-links a {
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: .05s ease-in-out .05s;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.nav-links button {
+    padding: 10px 30px;
+    background-color: var(--btn-color-1);
+    border: none;
+    color: var(--text-color-1);
+    border-radius: 10px;
+    font-size: 15px;
+    transition: .05s linear .05s;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.nav-links button:hover {
+    background-color: var(--btn-color-2);
+}
+
+.nav-links a:hover {
+    color: var(--text-color-2);
+}
